@@ -20,7 +20,8 @@ ENV \
 	STEAM_USERNAME= \
 	STEAM_PASSWORD= \
 	STEAM_GUARD= \
-	STEAM_AUTHCODE_URL=
+	STEAM_AUTHCODE_URL= \
+	STEAM_CACHE_IP=127.0.0.1
 COPY files /opt/steamcmd
 RUN \
 	mkdir /opt/steamcmd/cache && \
